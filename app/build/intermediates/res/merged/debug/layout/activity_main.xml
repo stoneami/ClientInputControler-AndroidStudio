@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#22220000">
+
+   <com.stone.widget.TouchPadView 
+        android:id="@+id/touch_pad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:background="#33003333"/>
+
+    <!--Keyboard-->
+    <include layout="@layout/input" />
+
+</RelativeLayout><!-- From: file:/E:/android-projects/ClientInputControler21/app/src/main/res/layout/activity_main.xml -->
